@@ -35,12 +35,13 @@ execute_ping() {
 	hosts[10]='ntp.shangdehao.com'
 	hosts[11]='worker.shangdehao.com'
 	hosts[12]='10.239.48.148'
+	hosts[13]='child-prc.intel.com'
        
 
-	for index in {0..12}
+	for index in {0..13}
 	do
 		host=${hosts[$index]}
-		printf "====>>>> ping  %s\n" $host
+		printf "====>>>> ping  %26s : " $host
 		ping $host -c 3 -q | grep "3 received"
 		#printf "\n"
 	done

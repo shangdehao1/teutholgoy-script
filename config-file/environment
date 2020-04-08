@@ -1,0 +1,5 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+http_proxy="http://child-prc.intel.com:913"
+https_proxy="http://child-prc.intel.com:913"
+ftp_proxy="http://child-prc.intel.com:913"
+

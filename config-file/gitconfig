@@ -1,0 +1,14 @@
+[user]
+        email = dehao.shang@intel.com
+        name = shangdehao1
+[push]
+        default = matching
+[core]
+        editor = vim
+[http]
+        proxy = http://child-prc.intel.com:913
+[https]
+        proxy = http://child-prc.intel.com:913
+[ftp]
+        proxy = http://child-prc.intel.com:913
+

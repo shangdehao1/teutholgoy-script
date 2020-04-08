@@ -31,5 +31,21 @@ execute_command "
 		cat /etc/ssh/sshd_config | grep \"PasswordAuthentication yes\";
 		"
 
+exit
+
+current_user=${USER}
+
+
+su - teuthworker << EOF
+
+old_user=$current_user
+current_user=${USER}
+
+printf "switch from [%s] to [%s]\n" $old_user $current_user
+
+
+EOF
+
+
 
 exit

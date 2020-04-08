@@ -1,0 +1,5 @@
+#!/bin/bash
+
+service ntp stop
+ntpdate 192.168.4.201
+service ntp start

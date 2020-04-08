@@ -26,7 +26,7 @@ teuthology-suite --dry-run -vv  \
 		\
 		--filter ubuntu \
 		 \
-                 /home/teuthworker/my-test-case/rbd_fio.yaml
+                 /home/teuthworker/my-test-case/cluster.yaml
 		
 		
 
